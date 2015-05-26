@@ -2,7 +2,6 @@
   "name": "react-native-motion-manager",
   "version": "0.0.5",
   "description": "A react-native interface for using the Gyroscope, Accelerometer and Magnetometer",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -29,7 +28,7 @@
     "url": "https://github.com/pwmckenna/react-native-motion-manager/issues"
   },
   "homepage": "https://github.com/pwmckenna/react-native-motion-manager",
-  "dependencies": {
-    "react-native": "^0.3.11"
+  "peerDependencies": {
+    "react-native": ">= 0.3.11"
   }
 }
